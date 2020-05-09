@@ -5,7 +5,10 @@
   "scripts": {
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www",
-    "serverstart": "DEBUG=message-board:* npm run devstart"
+    "serverstart": "DEBUG=message-board:* npm run devstart",
+	"engines": {
+		"node": "13.13.0"
+	}
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
