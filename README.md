@@ -1,4 +1,4 @@
 # message-board
 A simple message board built using express
 
-todo: experiment with ejs template engine + postgres integration
+todo: store messages using a free database hosting service instead of locally on server
